@@ -29,7 +29,7 @@ data = json.loads(r.text)
 playerCoords = data[5]["Pos"]
 
 for item in data:
-	print(item)
+	#print(item)
 	coords[0].append(item["Pos"][0])
 	coords[1].append(item["Pos"][1])
 	sizes.append(item["Size"]*10)
