@@ -6,10 +6,6 @@ import random
 coords = [[], []]
 sizes = []
 colors = []
-lbls = []
-relCoords = []
-
-playerCoords = []
 
 r = requests.get("http://localhost:8000/delall")
 
